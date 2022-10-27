@@ -1,0 +1,28 @@
+.news {
+  padding: 20px 32px 110px 32px;
+
+  &__heading {
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  &__heading-small {
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  &__paragraph {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    &__link {
+      text-decoration: underline;
+    }
+  }
+}
